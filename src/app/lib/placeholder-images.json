@@ -1,0 +1,23 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-finance",
+      "description": "Modern abstract finance background with golden and dark accents",
+      "imageUrl": "https://picsum.photos/seed/as-expenses/1200/600",
+      "imageHint": "finance wealth"
+    },
+    {
+      "id": "food-cat",
+      "description": "Food category icon background",
+      "imageUrl": "https://picsum.photos/seed/food/400/300",
+      "imageHint": "food restaurant"
+    },
+    {
+      "id": "transport-cat",
+      "description": "Transport category icon background",
+      "imageUrl": "https://picsum.photos/seed/transport/400/300",
+      "imageHint": "car travel"
+    }
+  ]
+}
