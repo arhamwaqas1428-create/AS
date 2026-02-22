@@ -33,11 +33,11 @@ export function useExpenses() {
     localStorage.setItem('as_expenses', JSON.stringify(expenses));
   }, [expenses]);
 
-  const addExpense = (expense: Omit<Expense, 'id' | 'date'>) => {
+  const addExpense = (expense: Omit<Expense, 'id'>) => {
     const newExpense: Expense = {
       ...expense,
       id: Math.random().toString(36).substr(2, 9),
-      date: new Date().toISOString(),
+      date: expense.date,
     };
     setExpenses((prev) => [newExpense, ...prev]);
   };
